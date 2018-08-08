@@ -1,0 +1,31 @@
+a:link {
+	color: black;
+
+}
+a:visited {
+	color: grey;
+}
+a:hover {
+	color: blue;
+}
+a:active {
+	color: red;
+}
+
+
+
+img {
+	max-width: 100%;
+	max-height: 1000px;
+	
+}
+img:hover {
+     border-radius: 50%;
+}
+
+p {
+
+	
+
+	
+}
