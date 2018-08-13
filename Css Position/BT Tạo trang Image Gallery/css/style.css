@@ -5,13 +5,13 @@
 h1 {
 	font-size: 24px;
 }
+
 #main-menu a {
 	font-size: 20px;
 	color: yellow;
 	text-decoration: none;
 	padding: 20px;
 	font-style: italic;
-	
 }
 #main-menu a:hover, #main-menu a.active {
 	color: black;
@@ -19,23 +19,19 @@ h1 {
 #main-menu a.active {
 	font-weight: bold;
 }
-
 img {
 	max-width: 100%;
 	max-height: 300px;
 }
-
-.wrap{
+.wrap {
 	max-width: 1000px;
 	margin: auto;
 }
 .box {
-	padding: 25px;
-
+	
 	float: left;
-	width: 33.333333%;
-	border: 1px;
-	text-align: center;
+	width: 33.3333%;
+	padding: 15px;
 }
 
 .box img {
@@ -46,27 +42,22 @@ img {
 	background-color: purple;
 }
 h1 {
-    	
-    	font-style: italic;
-    	
-    	color: red;
-    	font-family: cursive;
-    	text-align: center;
-    	
-    	
-    	
-    }
- h2 {
- 	color: red;
- 	font-style: italic;
-
- }
-
- .box p {
- 	height: 20px;
- 	color: green;
- }
+	font-style: italic;
+	color: red;
+	font-family: cursive;
+	text-align: center;
+}
+h2 {
+	color: red;
+	font-style: italic;
+}
+.box p {
+	height: 20px;
+	color: green;
+	text-align: center;
+}
 .box img:hover {
 	border-radius: 50%;
 	border: 2px solid red;
+
 }
