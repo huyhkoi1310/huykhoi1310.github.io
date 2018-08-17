@@ -1,0 +1,28 @@
+h1 {
+		text-align: center;
+		font-style: italic;
+		color: red;
+		font-family: cursive;
+	}
+.thumb img {
+		width: 300px;
+		height:200px;
+		border: 1px solid green;
+		float: left;
+		padding: 5px;
+		text-align: left;
+		margin: 5px;
+		margin-bottom: 15px;
+		opacity: 1;
+		vertical-align: middle;
+		transition: opacity 0.5s linear, max-width 1s linear;
+	}
+
+.thumb {
+	max-width: 1000px;
+	margin: auto;
+}
+.thumb:hover img {
+	opacity: 0.5;
+	max-width: 70%;
+}
