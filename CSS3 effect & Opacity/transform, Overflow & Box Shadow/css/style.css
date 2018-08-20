@@ -1,0 +1,47 @@
+h1 {
+		text-align: center;
+		font-style: italic;
+		color: red;
+		font-family: cursive;
+	}
+.thumb1 img, .thumb2 img {
+		width:300px;
+		height:200px;
+		border: 1px solid green;
+		margin: 15px;
+		vertical-align: middle;
+		float: left;
+	}
+
+.thumb1, .thumb2 {
+	max-width: 1000px;
+	margin: 60px;
+}
+
+.thumb1, .thumb2 {
+	cursor: pointer;
+	overflow: hidden;
+	float: left;
+}
+.thumb1 img, .thumb2 img {
+	vertical-align: middle;
+}
+.thumb1 {
+	transition: all 0.5s ease;
+}
+
+
+.thumb2 img {
+	transition: all 1s linear;
+	float: left;
+}
+
+.thumb1:hover {
+	transform: translate(0, -5px);
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.thumb2:hover img {
+	transform: scale(1.2);
+	opacity: 0.8;
+}
