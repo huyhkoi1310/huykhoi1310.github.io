@@ -142,4 +142,6 @@ h1 {
 
 .wrap {
 	text-align: justify;
+	max-width: 1000px;
+	max-height: auto;
 }
