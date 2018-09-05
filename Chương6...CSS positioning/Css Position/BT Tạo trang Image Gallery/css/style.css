@@ -36,6 +36,7 @@ img {
 
 .box img {
 	height: 150px;
+	width: 100%;
 }
 #main-menu {
 	text-align: center;

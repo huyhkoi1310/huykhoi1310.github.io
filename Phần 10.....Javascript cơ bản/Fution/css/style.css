@@ -1,0 +1,48 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+	
+}
+
+body {
+	font-family: "Open Sans", arial, sans-serif;
+	background-color: #E5E5E5;
+}
+
+
+#menu {
+	background-color: #ffffff;
+	text-align: center;
+	padding: 15px 0;
+	border-bottom: 1px solid #dddddd;
+}
+
+#menu a {
+	font-size: 20px;
+	color: #737373;
+	text-decoration: none;
+	padding: 15px;
+}
+
+#menu a:hover, #main-menu a:active {
+	color: black;
+}
+
+#menu a:active {
+	font-weight: bold;
+}
+
+#main-content {
+	background-color: #ffffff;
+	height: 100vh;
+	padding: 20px;
+}
