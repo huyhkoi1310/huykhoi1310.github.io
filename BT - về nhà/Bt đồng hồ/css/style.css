@@ -538,14 +538,14 @@ body,html {
 	width: 5px;
 	height: 90px;
 	background-color: black;
-	top: 20px;
+	top: 17px;
 	left: 55%;
 	transform: translate(-50%, -50%);
 	position: absolute;
 	transform: rotate(20deg);
 }
 .e2 {
-	top: 50%;
+	top: 51%;
 	left: 56%;
 	width: 5px;
 	height: 65px;
