@@ -1,0 +1,11 @@
+.wrap {
+	width: 1200px;
+	height: 2000px;
+	margin: auto;
+	border: 1px solid #ddd;
+}
+.layout1 img{
+  	float: left;
+  	margin: auto;
+  	padding: 42px;
+}

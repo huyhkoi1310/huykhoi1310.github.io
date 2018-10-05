@@ -1,0 +1,34 @@
+.wrap{
+	width: 1500px;
+	height: 800px;
+	border: 5px solid green;
+	margin: auto;
+}
+h1  {
+	text-align: center;
+
+}
+.a1{
+	width: 1500px;
+	height: 60%;
+}
+.a2 {
+	width: 1450px;
+	height: 20%;
+	margin: auto;
+	margin-top: 50px;
+}
+.b1 {
+	width: 650px;
+	height: 100%;
+}
+.b1 img {
+	width: 640px;
+	height: 100%;
+}
+.b2 {
+	width: 850px;
+	height: 100%;
+	float: right;
+	margin-top: -480px;
+}
