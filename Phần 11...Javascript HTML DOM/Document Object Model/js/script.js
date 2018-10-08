@@ -42,7 +42,18 @@ function changeColor(){
 	p3.style.color = "red";
 }
 //Bài 5
-console.log("--Bài 5--")
-function changeBgColor(color){
-	
+console.log('--Bài 5--');
+function changeBgColor(color) {
+	var content = document.querySelector(".content");
+	content.style.backgroundColor = color;
+}
+//Bài 6
+console.log("--Bài 6--")
+function copyContent(){
+	var arrp = document.getElementsByTagName('p');
+	var pchange1 = document.getElementById('para1').value;
+	var pchange2 = document.getElementById('para2').value;
+	var a=pchange1.charAt(1);
+	var b=pchange2.charAt(1);
+	arrp[Number(a)-1].innerText = arrp[Number(b)-1].innerText ;
 }
