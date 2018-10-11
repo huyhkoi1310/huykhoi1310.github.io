@@ -12,36 +12,36 @@
 	    </div>
 	    <input type="text" id="x"> <br/>
 	    <div class="a1">
-	    	<button id="nut1">Backspace</button>
-	    	<button id="nut1">CE</button>
+	    	<td><input class="nut1" type="button" value="Backspace" onclick="x.value=''"></td>
+	    	<td><input class="nut1" type="button" value="CE" onclick="x.value=x.value.substr(0,x.value.length-1)"></td>
         </div>
         <div class="a2">
-        	<button id="nut2">1</button>
-        	<button id="nut2">2</button>
-        	<button id="nut2">3</button>
-        	<button id="nut2">4</button>
-        	<button id="nut2">5</button>
-        	<button id="nut2">6</button>
-        	<button id="nut2">7</button>
-        	<button id="nut2">8</button>
-        	<button id="nut2">9</button>
-        	<button id="nut2">.</button>
-        	<button id="nut2">0</button>
-        	<button id="nut2">!</button>
+            <td><input class="nut2" type="button" value="1" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="2" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="3" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="4" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="5" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="6" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="7" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="8" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="9" onclick="x.value+=this.value"></td>
+            <td><input class="nut2" type="button" value="." onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="0" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="!" onclick="x.value+=this.value"></td>
         </div>
         <div class="a3">
-        	<button id="nut3">+</button>
-        	<button id="nut3">-</button>
-        	<button id="nut3">*</button>
-        	<button id="nut3">/</button>
+        	<td><input class="nut3" type="button" value="+" onclick="x.value+=this.value"></td>
+        	<td><input class="nut3" type="button" value="-" onclick="x.value+=this.value"></td>
+        	<td><input class="nut3" type="button" value="*" onclick="x.value+=this.value"></td>
+        	<td><input class="nut3" type="button" value="/" onclick="x.value+=this.value"></td>
         </div>
         <div class="a4">
-        	<button id="nut4">%</button>
-        	<button id="nut4">x&#178</button>
+        	<td><input class="nut4" type="button" value="%" onclick="x.value+=this.value"></td>
+        	<td><input class="nut4" type="button" value="&#178" onclick="x.value+=this.value"></td>
         </div>
         <div class="a5">
-        	<button id="nut5">&#8730</button>
-        	<button id="nut5">=</button>
+        	<td><input class="nut5" type="button" value="&#8730" onclick="x.value+=this.value"></td>
+        	<td><input class="nut5" type="button" value="=" onclick="x.value=eval(x.value)"></td>
         </div>
         </div>
 <script src="js/script.js"></script>

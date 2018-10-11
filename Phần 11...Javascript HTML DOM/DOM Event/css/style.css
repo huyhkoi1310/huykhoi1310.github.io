@@ -2,14 +2,17 @@
 	width: 400px;
 	height: 550px;
 	margin: auto;
-	border: 10px solid #eaeae1;
-	border-top: 50px solid #eaeae1;
+	border: 2px solid black;
+	border-top: 45px solid black;
+	background-color: #ddd;
 }
 #x {
 	width: 350px;
 	height: 60px;
 	margin: 22px;
 	margin-top: 0px;
+	font-size: 20px;
+	text-align: right;
 }
 .a{
 	width: 100px;
@@ -44,44 +47,45 @@
 	height: 60px;
 	margin: auto;
 }
-#nut1{
+.nut1{
 	width: 44.2%;
 	height: 40px;
 	margin: 10px;
 	color: red;
 }
-#nut2{
+.nut2{
 	width: 50px;
 	height: 50px;
 	margin: 10px;
 	color: blue;
 }
-#nut2:hover{
+.nut2:hover{
 	background-color: blue;
 	color: white;
 }
-#nut3{
+.nut3{
 	width: 50px;
 	height: 85px;
 	margin: 10px;
 	color: red;
 }
-#nut4{
+.nut4{
 	width: 50px;
 	height: 50px;
 	margin: 10px;
 	color: red;
 }
-#nut5{
+.nut5{
 	width: 44.2%;
 	height: 40px;
 	margin: 10px;
 	color: red;
 }
-#nut1:hover,#nut3:hover,#nut4:hover,#nut5:hover{
+.nut1:hover,.nut3:hover,.nut4:hover,.nut5:hover{
 	color: white;
 	background-color: red;
 }
 p {
 	text-align: center;
+	color: white;
 }
