@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.khung_button .tra-loi {
+    width: 47%;
+    color: #040404;
+    border: 1px solid black;
+    background: #ffebcdb8;
+    float: left;
+    margin: 1.25%;
+    /*cursor: pointer;*/
+}
+
+.khung_button .tra-loi h5 {
+    color: #040404;
+    font-size: 2rem;
+}
+
+.wrap .khung_top h4 {
+    color: aliceblue;
+    font-size: 3rem;
+}
+
+.wrap .khung {position: absolute;left: 25%;top: 25%;right: 25%;}
+
+.wrap .khung_top {
+    text-align: center;
+    border: 1px solid black;
+    background: #0000ff8f;
+    width: 100%;
+}
+
+.wrap .khung_button {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.wrap{
+	background: url('../img/anh1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+#a,#b,#c,#d{
+	width: 100%;
+	background: #ffebcd7a;
+}
