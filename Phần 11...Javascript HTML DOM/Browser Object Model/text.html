@@ -1,29 +1,19 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Browser Object Model</title>
-	<meta charset="utf-8">
+	<title>Game test trình độ</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8">
 </head>
 <body>
+	<p><iframe width="560" height="315" src="https://www.youtube.com/embed/PEuJeq5TXWc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
 	<div class="wrap">
-		<div class="khung">
-			<div class="khung_top">
-				<h4>tao là ai</h4>
-			</div>
-			<div class="khung_button">
-				<div class="tra-loi"><button id="a" onclick="press1()"><h5>chó</h5></button></div>
-				<div class="tra-loi"><button id="b"><h5>mèo</h5></button></div>
-				<div class="tra-loi"><button id="c"><h5>lợn</h5></button></div>
-				<div class="tra-loi"><button id="d"><h5>Tao!!</h5></button></div>
-			</div>
-		</div>
+		<div class="quest finish start" id='q'>Bạn đã sẳn sàng cho cuộc chiến hiểu biết này chưa ??<br/><button>Bắt đầu</button> </div>
+		<button class="request change finish" id='a'> </button>
+		<button class="request change finish" id='b'> </button>
+		<button class="request change finish" id='c'> </button>
+		<button class="request change finish" id='d'> </button>
+		<button class='re' ><--</button>
 	</div>
-<script src="js/script.js"></script>
-<script>
-	function press1(){
-		alert("đáp án sai")
-	}
-</script>
+	<script src="js/script.js"></script>
 </body>
 </html>
