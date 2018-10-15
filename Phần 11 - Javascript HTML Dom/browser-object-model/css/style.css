@@ -1,0 +1,55 @@
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+body{
+    background-image: url(http://file.vforum.vn/hinh/2018/03/hinh-anh-hinh-nen-lol-lien-minh-huyen-thoai-dep-nhat-7.jpg);
+    background-repeat:  no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin:0px;
+    position: relative;
+}
+.wrap{
+    width: 500px;
+    margin:320px auto;
+    position: absolute;
+    top:0px;
+    left:550px;
+}
+.quest{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    border: 3px solid rgba(255, 255, 255, 0.568);
+    text-align: center;
+    background-color: #ff000066;
+    color: white;
+}
+.request{
+    width: 235px;
+    height: 50px;
+    text-align: left;
+    margin: 5px 5px ;
+    background-color: #0000ff69;
+    color: white;
+    font-size: 20px;
+    border:none;
+    text-decoration-style: double;
+}
+.request:active{
+    background-color: #ff3300;
+}
+button:focus {outline:0;}
+.re img{
+    width: 30px;
+    height: 30px;
+}
+iframe {
+    width: 200px;
+    height: 50px;
+    float: right;
+}
