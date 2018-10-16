@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrap">
+        <div><button id="casio"><i>casio</i></button></div>
+		<div class="a">
+	    </div>
+	    <input type="text" id="x"> <br/>
+	    <div class="a1">
+	    	<td><input class="nut1" type="button" value="Backspace" onclick="x.value=''"></td>
+	    	<td><input class="nut1" type="button" value="CE" onclick="x.value=x.value.substr(0,x.value.length-1)"></td>
+        </div>
+        <div class="a2">
+            <td><input class="nut2" type="button" value="1" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="2" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="3" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="4" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="5" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="6" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="7" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="8" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="9" onclick="x.value+=this.value"></td>
+            <td><input class="nut2" type="button" value="." onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="0" onclick="x.value+=this.value"></td>
+        	<td><input class="nut2" type="button" value="!" onclick="x.value+=this.value"></td>
+        </div>
+        <div class="a3">
+        	<td><input class="nut3" type="button" value="+" onclick="x.value+=this.value"></td>
+        	<td><input class="nut3" type="button" value="-" onclick="x.value+=this.value"></td>
+        	<td><input class="nut3" type="button" value="*" onclick="x.value+=this.value"></td>
+        	<td><input class="nut3" type="button" value="/" onclick="x.value+=this.value"></td>
+        </div>
+        <div class="a4">
+        	<td><input class="nut4" type="button" value="%" onclick="x.value+=this.value"></td>
+        	<td><input class="nut4" type="button" value="&#178" onclick="x.value+=this.value"></td>
+        </div>
+        <div class="a5">
+        	<td><input class="nut5" type="button" value="&#8730" onclick="x.value+=this.value"></td>
+        	<td><input class="nut5" type="button" value="=" onclick="x.value=eval(x.value)"></td>
+        </div>
+        </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
