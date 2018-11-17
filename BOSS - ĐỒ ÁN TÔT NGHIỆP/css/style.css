@@ -1,0 +1,422 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrap {
+	width: 1500px;
+	height: 7000px;
+	margin: auto;
+}
+.thanh-menu {
+	width: 100%;
+	height: 125px;
+	position: relative;
+	list-style-type: none;
+    border: 1px solid #ddd;
+}
+.thanh-menu a {
+	text-decoration: none;
+	font-family: Arial;
+	color: black;
+	font-size: 17px;
+}
+.thanh-menu a:hover {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px solid black;
+}
+.thanh-menu a:active {
+	border-bottom: 2px solid black;
+}
+.anh-menu {
+	width: 9%;
+	height: 120px;
+	margin: auto;
+}
+.anh-menu img {
+	width: 100%;
+	height: 100%;
+}
+.trangchu {
+	width: 85px;
+	height: 40px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 200px;
+}
+.trangchu a {
+	margin: auto;
+}
+.hethong {
+	width: 85px;
+	height: 40px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 350px;
+}
+.sanpham {
+	width: 85px;
+	height: 40px;
+	float: left;
+	margin-top: -70px;
+	margin-left: 500px;
+}
+.tintuc {
+	width: 85px;
+	height: 40px;
+	float: right;
+	margin-top: -70px;
+	margin-right: 200px;
+}
+.gioithieu {
+	width: 85px;
+	height: 40px;
+	float: right;
+	margin-top: -70px;
+	margin-right: 350px;
+}
+.lienhe {
+	width: 85px;
+	height: 40px;
+	float: right;
+	margin-top: -70px;
+	margin-right: 500px;
+}
+.anhtrangchu {
+	width: 100%;
+	height: 10px;
+	margin: auto;
+	margin-top: 2%;
+}
+.anhtrangchu img {
+	width: 100%;
+	height: 100%;
+}
+.anhsanpham {
+	width: 40%;
+	height: 7%;
+	margin-top: 70%;
+	margin-left: 7%;
+	cursor: pointer;
+	overflow: hidden;
+}
+.anhsanpham img {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	transition: all 1s linear;
+}
+.anhsanpham:hover img {
+	transform: scale(2);
+	opacity: 1;
+}
+.textsanpham {
+	width: 40%;
+	height: 3.8%;
+	float: right;
+	margin-right: 7%;
+	margin-top: -32%;
+}
+.textsanpham p {
+	font-size: 17px;
+}
+.muangay {
+	width: 6%;
+	height: 0.7%;
+	margin: auto; 
+	margin-top: -11%;
+	margin-right: 620px;
+}
+.muangay a {
+	text-align: center;
+	color: white;
+	font-family: georgia;
+	font-size: 15px;
+	text-decoration: none;
+}
+.muangay a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+.muangay button {
+	width: 100%;
+	height: 100%;
+	background-color: #6c6868;
+}
+b {
+	font-size: 20px;
+}
+.sdt {
+	width: 13%;
+	height: 1.5%;
+	float: right;
+	margin-right: 31%;
+	margin-top: 1.5%;
+	font-size: 15px;
+}
+.sdt img {
+	width: 20%;
+	height: 100%;
+}
+.sdt b {
+	font-size: 15px;
+	margin-left: -8%;
+}
+.khungdt {
+	width: 1.8%;
+	height: 0.4%;
+	margin-left: 52.7%;
+	margin-top: 1.2%;
+}
+.khungdt img {
+	width: 100%;
+	height: 100%;
+}
+.khungkn {
+	width: 98%;
+	height: 8%;
+	border: 2px solid #ddd;
+	border-right: white;
+	border-left: white;
+	margin: auto;
+	margin-top: 10%;
+	font-size: 20px;
+}
+.khunganhkn {
+	width: 17%;
+	height: 6%;
+	margin-top: 13%;
+	margin-left: 14%;
+}
+.khunganhkn b {
+	font-family: Blackadder ITC;
+	font-size: 35px;
+}
+.khunganhvv {
+	width: 52%;
+	height: 95%;
+	float: right;
+	margin-top: -14.5%;
+}
+.khunganhvv img {
+	width: 45%;
+	height: 90%;
+	float: left;
+	margin: 1.8%;
+}
+.cathinh {
+	width: 17%;
+	height: 12%;
+	background-color: white;
+	margin-left: 41.5%;
+	margin-top: 21%;
+}
+.cathinh img {
+	width: 26%;
+	height: 95%;
+	margin-top: -8.2%;
+	margin-left: 35.5%;
+}
+.anhvvfake {
+	width: 98%;
+	height: 8%;
+	margin: auto;
+	margin-top: 4%;
+}
+.anhvvfake img {
+	width: 24%;
+	height: 47.5%;
+	float: left;
+	margin: 0.5%;
+}
+.khungnx {
+	width: 98%;
+	height: 10%;
+	margin: auto;
+	margin-top: 5%;
+	position: relative;
+}
+.khungnx img {
+	width: 100%;
+	height: 100%;
+}
+.nx1 {
+	width: 28%;
+	height: 70%;
+	float: left;
+	background-color: #ffffffbd;
+	position: absolute;
+	margin-top: -36%;
+    margin-left: 6%;
+}
+.nx2 {
+	width: 28%;
+	height: 70%;
+	background-color: #ffffffbd;
+	position: absolute;
+	margin-left: 36%;
+	margin-top: -36%;
+}
+.nx3 {
+	width: 28%;
+	height: 70%;
+	background-color: #ffffffbd;
+	position: absolute;
+	margin-left: 66%;
+	margin-top: -36%;
+}
+.nxkh {
+	width: 30%;
+	height: 7%;
+	position: absolute;
+	margin-top: -42%;
+	margin-left: 35%;
+	color: white;
+}
+.nxkh b {
+	font-size: 35px;
+	margin-left: 9%;
+}
+.anhkh1 {
+	width: 35%;
+	height: 28%;
+	margin: auto;
+	margin-top: 4%;
+}
+.anhkh1 img {
+	width: 100%;
+	height: 100%;
+}
+.bv {
+	width: 75%;
+	height: 60%;
+	margin: auto;
+	margin-top: 5%;
+}
+.bv p {
+	font-size: 21px;
+}
+.bv b {
+	font-family: Matura MT Script Capitals;
+	font-size: 18px;
+}
+.khungtt {
+	width: 15%;
+	height: 1%;
+	margin: auto;
+	margin-top: 8%;
+}
+.khungtt b {
+	font-size: 30px;
+	margin-left: 20%;
+}
+.khungtintuc {
+	width: 98%;
+	height: 15%;
+	margin: auto;
+	margin-top: 2.5%;
+}
+.khungtintuc img {
+	width: 30%;
+	height: 40%;
+	margin-left: 2.2%;
+	margin-top: 0.9%;
+}
+.tt1 {
+	width: 5%;
+	height: 3%;
+	margin-left: 2.22%;
+	margin-top: 1%;
+}
+.tt2 {
+	width: 5%;
+	height: 3%;
+	margin-left: 34.65%;
+	margin-top: -2.2%;
+}
+.tt3 {
+	width: 5%;
+	height: 3%;
+	margin-left: 67.12%;
+	margin-top: -2.2%;
+}
+.khunggt {
+	width: 30%;
+	height: 30%;
+	margin-left: 2.2%;
+	margin-top: 1%;
+}
+.khunggt1 {
+	width: 30%;
+	height: 30%;
+	margin-left: 34.6%;
+	margin-top: -21.5%;
+}
+.khunggt2 {
+	width: 30%;
+	height: 30%;
+	margin-left: 67%;
+	margin-top: -21.5%;
+}
+.khungtintuc b {
+	font-family: Segoe UI;
+}
+.khungtintuc a:hover  {
+	text-decoration: none;
+	color: red;
+}
+.khungtintuc a {
+	color: black;
+	text-align: center;
+}
+.xt1 {
+	width: 8%;
+	height: 4%;
+	margin-top: -13%;
+	margin-left: 2.2%;
+}
+.xt2 {
+	width: 8%;
+	height: 4%;
+	margin-top: -2.85%;
+	margin-left: 34.6%;
+}
+.xt3 {
+	width: 8%;
+	height: 4%;
+	margin-top: -2.85%;
+	margin-left: 67%;
+}
+.kavv {
+	cursor: pointer;
+	overflow: hidden;
+	width: 49%;
+	height: 100%;
+	transition: all 0.5s ease;
+}
+.kavv img {
+	vertical-align: middle;
+	width: 100%;
+	float: left;
+}
+.kavv:hover {
+	transform: translate(0, -5px);
+}
+.kavv1 {
+	cursor: pointer;
+	overflow: hidden;
+	width: 49%;
+	height: 100%;
+	margin-left: 50%;
+	margin-top: -69.1%;
+	transition: all 0.5s ease;
+}
+.kavv1 img {
+	vertical-align: middle;
+	width: 100%;
+	float: left;
+}
+.kavv1:hover {
+	transform: translate(0, -5px);
+}

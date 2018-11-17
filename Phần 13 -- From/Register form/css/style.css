@@ -1,0 +1,23 @@
+.wrap {
+	text-align: center;
+	margin: auto;
+	border: 2px solid #123212;
+	width: 500px;
+	height: 750px;
+	background: #568586;
+}
+input {
+	font-size: 15px;
+	padding: 15px;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+}
+ .a {
+	width: 80%;
+}
+.b {
+	width: 30%;
+}
+s
