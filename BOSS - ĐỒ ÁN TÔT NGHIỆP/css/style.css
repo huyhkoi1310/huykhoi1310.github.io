@@ -4,13 +4,15 @@
 	box-sizing: border-box;
 }
 .wrap {
-	width: 1500px;
-	height: 7000px;
+	max-width: 1200px;
+	height: 6500px;
 	margin: auto;
+	overflow: hidden;
 }
 .thanh-menu {
 	width: 100%;
 	height: 125px;
+	margin: auto;
 	position: relative;
 	list-style-type: none;
     border: 1px solid #ddd;
@@ -23,16 +25,15 @@
 }
 .thanh-menu a:hover {
 	text-decoration: none;
-	color: black;
-	border-bottom: 2px solid black;
 }
 .thanh-menu a:active {
 	border-bottom: 2px solid black;
 }
 .anh-menu {
-	width: 9%;
-	height: 120px;
+	width: 15%;
+	height: 170px;
 	margin: auto;
+	margin-top: -1.8%;
 }
 .anh-menu img {
 	width: 100%;
@@ -42,8 +43,11 @@
 	width: 85px;
 	height: 40px;
 	float: left;
-	margin-top: -70px;
-	margin-left: 200px;
+	margin-top: -95px;
+	margin-left: 100px;
+}
+.trangchu a:hover {
+	border-bottom: 1px solid black;
 }
 .trangchu a {
 	margin: auto;
@@ -52,36 +56,51 @@
 	width: 85px;
 	height: 40px;
 	float: left;
-	margin-top: -70px;
-	margin-left: 350px;
+	margin-top: -95px;
+	margin-left: 245px;
+}
+.hethong a:hover {
+	border-bottom: 1px solid black;
 }
 .sanpham {
 	width: 85px;
 	height: 40px;
 	float: left;
-	margin-top: -70px;
-	margin-left: 500px;
+	margin-top: -95px;
+	margin-left: 380px;
+}
+.sanpham a:hover {
+	border-bottom: 1px solid black;
 }
 .tintuc {
 	width: 85px;
 	height: 40px;
 	float: right;
-	margin-top: -70px;
-	margin-right: 200px;
+	margin-top: -95px;
+	margin-right: 85px;
+}
+.tintuc a:hover {
+	border-bottom: 1px solid black;
 }
 .gioithieu {
 	width: 85px;
 	height: 40px;
 	float: right;
-	margin-top: -70px;
-	margin-right: 350px;
+	margin-top: -95px;
+	margin-right: 240px;
+}
+.gioithieu a:hover {
+	border-bottom: 1px solid black;
 }
 .lienhe {
 	width: 85px;
 	height: 40px;
 	float: right;
-	margin-top: -70px;
-	margin-right: 500px;
+	margin-top: -95px;
+	margin-right: 370px;
+}
+.lienhe a:hover {
+	border-bottom: 1px solid black;
 }
 .anhtrangchu {
 	width: 100%;
@@ -94,39 +113,26 @@
 	height: 100%;
 }
 .anhsanpham {
-	width: 40%;
-	height: 7%;
+	width: 90%;
+	height: 8%;
 	margin-top: 70%;
-	margin-left: 7%;
-	cursor: pointer;
-	overflow: hidden;
+	margin-left:5%;
+	position: relative;
 }
 .anhsanpham img {
 	width: 100%;
 	height: 100%;
-	vertical-align: middle;
-	transition: all 1s linear;
 }
-.anhsanpham:hover img {
-	transform: scale(2);
-	opacity: 1;
-}
-.textsanpham {
-	width: 40%;
-	height: 3.8%;
-	float: right;
-	margin-right: 7%;
-	margin-top: -32%;
-}
-.textsanpham p {
-	font-size: 17px;
+.w3-content {
+	width: 100%;
+	height: 100%;
 }
 .muangay {
 	width: 6%;
 	height: 0.7%;
 	margin: auto; 
-	margin-top: -11%;
-	margin-right: 620px;
+	margin-top: -9%;
+	margin-right: 41.5%;
 }
 .muangay a {
 	text-align: center;
@@ -147,27 +153,15 @@
 b {
 	font-size: 20px;
 }
-.sdt {
-	width: 13%;
-	height: 1.5%;
-	float: right;
-	margin-right: 31%;
-	margin-top: 1.5%;
-	font-size: 15px;
-}
-.sdt img {
-	width: 20%;
-	height: 100%;
-}
-.sdt b {
-	font-size: 15px;
-	margin-left: -8%;
-}
 .khungdt {
-	width: 1.8%;
-	height: 0.4%;
-	margin-left: 52.7%;
-	margin-top: 1.2%;
+	width: 3.5%;
+	height: 0.7%;
+	margin-left: 60%;
+	margin-top: -3.8%;
+}
+.khunganhvv img {
+	width: 100%:
+	height: 100%;
 }
 .khungdt img {
 	width: 100%;
@@ -183,15 +177,21 @@ b {
 	margin-top: 10%;
 	font-size: 20px;
 }
+.khungkn img {
+	width: 100%;
+	height: 100%;
+}
 .khunganhkn {
-	width: 17%;
+	width: 22%;
 	height: 6%;
-	margin-top: 13%;
-	margin-left: 14%;
+	margin-top: 180px;
+	margin-left: 427px;
+	position: absolute;
+	color: white;
 }
 .khunganhkn b {
 	font-family: Blackadder ITC;
-	font-size: 35px;
+	font-size: 45px;
 }
 .khunganhvv {
 	width: 52%;
@@ -205,21 +205,8 @@ b {
 	float: left;
 	margin: 1.8%;
 }
-.cathinh {
-	width: 17%;
-	height: 12%;
-	background-color: white;
-	margin-left: 41.5%;
-	margin-top: 21%;
-}
-.cathinh img {
-	width: 26%;
-	height: 95%;
-	margin-top: -8.2%;
-	margin-left: 35.5%;
-}
 .anhvvfake {
-	width: 98%;
+	width: 99%;
 	height: 8%;
 	margin: auto;
 	margin-top: 4%;
@@ -243,44 +230,44 @@ b {
 }
 .nx1 {
 	width: 28%;
-	height: 70%;
+	height: 65%;
 	float: left;
 	background-color: #ffffffbd;
 	position: absolute;
-	margin-top: -36%;
+	margin-top: -40%;
     margin-left: 6%;
 }
 .nx2 {
 	width: 28%;
-	height: 70%;
+	height: 65%;
 	background-color: #ffffffbd;
 	position: absolute;
 	margin-left: 36%;
-	margin-top: -36%;
+	margin-top: -40%;
 }
 .nx3 {
 	width: 28%;
-	height: 70%;
+	height: 65%;
 	background-color: #ffffffbd;
 	position: absolute;
 	margin-left: 66%;
-	margin-top: -36%;
+	margin-top: -40%;
 }
 .nxkh {
-	width: 30%;
+	width: 35%;
 	height: 7%;
 	position: absolute;
-	margin-top: -42%;
+	margin-top: -47%;
 	margin-left: 35%;
 	color: white;
 }
 .nxkh b {
-	font-size: 35px;
-	margin-left: 9%;
+	font-size: 30px;
+	margin-left: 6%;
 }
 .anhkh1 {
 	width: 35%;
-	height: 28%;
+	height: 25%;
 	margin: auto;
 	margin-top: 4%;
 }
@@ -295,11 +282,10 @@ b {
 	margin-top: 5%;
 }
 .bv p {
-	font-size: 21px;
+	font-size: 17px;
 }
 .bv b {
-	font-family: Matura MT Script Capitals;
-	font-size: 18px;
+	font-size: 15px;
 }
 .khungtt {
 	width: 15%;
@@ -347,17 +333,26 @@ b {
 	margin-left: 2.2%;
 	margin-top: 1%;
 }
+.khunggt b {
+	font-size: 18px;
+}
 .khunggt1 {
 	width: 30%;
 	height: 30%;
 	margin-left: 34.6%;
-	margin-top: -21.5%;
+	margin-top: -24.8%;
+}
+.khunggt1 b {
+	font-size: 18px;
 }
 .khunggt2 {
 	width: 30%;
 	height: 30%;
 	margin-left: 67%;
-	margin-top: -21.5%;
+	margin-top: -24.8%;
+}
+.khunggt2 b {
+	font-size: 18px;
 }
 .khungtintuc b {
 	font-family: Segoe UI;
@@ -373,20 +368,32 @@ b {
 .xt1 {
 	width: 8%;
 	height: 4%;
-	margin-top: -13%;
+	margin-top: -13.5%;
 	margin-left: 2.2%;
+	font-size: 18px;
+}
+.xt1 b {
+	font-size: 18px;
 }
 .xt2 {
 	width: 8%;
 	height: 4%;
-	margin-top: -2.85%;
+	margin-top: -3.2%;
 	margin-left: 34.6%;
+	font-size: 18px;
+}
+.xt2 b {
+	font-size: 18px;
 }
 .xt3 {
 	width: 8%;
 	height: 4%;
-	margin-top: -2.85%;
+	margin-top: -3.2%;
 	margin-left: 67%;
+	font-size: 18px;
+}
+.xt3 b {
+	font-size: 18px;
 }
 .kavv {
 	cursor: pointer;
@@ -395,28 +402,154 @@ b {
 	height: 100%;
 	transition: all 0.5s ease;
 }
-.kavv img {
-	vertical-align: middle;
+.gll {
+	width: 98%;
+	height: 9%;
+	margin: auto;
+	margin-top: -15%;
+}
+.gll img {
 	width: 100%;
-	float: left;
-}
-.kavv:hover {
-	transform: translate(0, -5px);
-}
-.kavv1 {
-	cursor: pointer;
-	overflow: hidden;
-	width: 49%;
 	height: 100%;
-	margin-left: 50%;
-	margin-top: -69.1%;
-	transition: all 0.5s ease;
 }
-.kavv1 img {
-	vertical-align: middle;
+.giu-ll {
+	width: 11%;
+	height: 5%;
+	margin-top: -29.5%;
+	position: absolute;
+	margin-left: 54%;
+}
+.giu-ll b {
+	font-size: 30px;
+	font-family: Segoe UI;
+	color: white;
+}
+.giu-ll1 {
+	width: 35%;
+	height: 5%;
+	margin-left: 54%;
+	position: absolute;
+	margin-top: -26%;
+}
+.giu-ll1 p {
+	color: white;
+}
+.dn-email {
+	position: absolute;
+	margin-top: -24%;
+	margin-left: 54%;
+}
+#email {
+	width: 320px;
+	height: 40px;
+	font-size: 17px;
+	background-color: #ffffffa8;
+}
+#email1 {
+	width: 100px;
+	height: 40px;
+}
+.carousel-inner h5 {
+	text-align: center;
+	font-size: 15px;
+	color: brown;
+}
+.container {
+	margin-top: -25%;
+	color: white;
+	padding: 2px;
+}
+#email {
+	width: 320px;
+	border: 0.5px solid white;
+}
+#password {
+	width: 320px;
+	background-color: #ffffffa8;
+	border: 0.5px solid white;
+}
+.form-group {
+	margin-left: -21.59%;
+}
+.test1 {
+	background-color: white;
+}
+.container {
+	margin-left: 350px;
+	margin-top: -400px;
+}
+.input-group {
+	margin-left: 80px;
+}
+.btn-default {
+	margin-left:14%; 
+	width: 200px;
+}
+h3 {
+	font-size: 30px;
+}
+.container1 h2 {
+	font-size: 19px;
+}
+.btn-info1 {
+	margin-left: 5px;
+}
+.btn-info2 {
+	margin-left: 15px;
+}
+.moveTop {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	display: none;
+	right: 10px;
+	bottom: 60px;
+	cursor: pointer;
+	line-height: 60px;
+}
+.moveTop img {
 	width: 100%;
-	float: left;
+	height: 100%;
+	border-radius: 50%;
 }
-.kavv1:hover {
-	transform: translate(0, -5px);
+#scropllTop {
+  	display: block;
+  	position: absolute;
+  	right: 0;
+  	bottom: -10px;
+  	}
+.fixed {
+    position: fixed;
+    z-index: 10000;
+    top: -17px;
+    max-width: 1200px;
+    border: 1px solid #ddd;
+    height: 15%;
+    background-color: #ffffff8c;
+ }
+ .fixed a {
+  color: brown;
+ }
+.w3-content {
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	position: absolute;
+}
+ .khunganhbadao {
+ 	width: 50%;
+ 	height: 70%;
+ 	margin-top: 7%;
+ 	margin-left: 2%;
+ }
+.w3-light-grey {
+	margin-top: 49%;
+}
+.khunganhbadao1 {
+	width: 40%;
+	height: 70%;
+	background-color: yellow;
+	position: absolute;
+	margin-left: 530px;
+	margin-top: -365px;
 }
